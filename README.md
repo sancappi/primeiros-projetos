@@ -1,2 +1,2 @@
-# Primeiros-projetos
+# primeiros-projetos
 Para treinar
