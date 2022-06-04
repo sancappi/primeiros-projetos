@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset ="utf-8">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+  <h2>Mais sobre você</h2>
+
+  <p>Responda:</p>
+  <form method="post" action="mailto:endereçodeemail.com">
+    
+    <label for="primeironome">Nome:</label>
+    <input type="text" id="primeironome" name="primeironome"/><br />
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" id="sobrenome" name="sobrenome"/><br />
+    <label for="endereço">Endereço:</label>
+    <input type="text" id="endereço" name="endereço"/><br />
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone" /><br />
+    <label for="bolo">Você gosta de bolo?</label>
+    
+    Sim <input id="bolo" name="bolo" type="radio" value="yes" />
+    Não <input id="bolo" name="bolo" type="radio" value="no" /><br />
+    
+    <label for="other">Escreva qual é o seu sabor favorito de bolo:</label>
+    <textarea id="other" name="other"></textarea><br/>
+    <input type="submit" value="Enviar" name="submit" />
+  </form>
+</body>
+
+</html>
